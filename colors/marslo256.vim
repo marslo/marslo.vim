@@ -153,6 +153,7 @@ hi Constant	            guifg=#A6E22E       gui=NONE
 hi Statement	        guifg=#EE801E       gui=NONE
 hi PreProc	            guifg=OrangeRed3    gui=NONE
 hi Type		            guifg=#afdf66       gui=NONE
+" hi Type		            guifg=#4169E1       gui=NONE
 hi Underlined	        gui=NONE
 hi htmlArg              guifg=#dfafdf
 hi htmlValue            guifg=#dfdfaf
