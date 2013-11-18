@@ -71,6 +71,7 @@
 "               String              guifg
 "               Entity              guifg
 "               Support             guifg
+"               Type                guifg
 
 " cool help screens
 " :he group-name
@@ -143,15 +144,15 @@ hi treeOpenable         guifg=#afdf87
 hi treePart             guifg=#808080
 hi treeDirSlash         guifg=#808080
 hi treeLink             guifg=#dfafdf
-hi String               guifg=#9acd00           gui=NONE
-hi Entity               guifg=#fa6513           gui=NONE
-hi Support              guifg=#8fa6cd           gui=NONE
+hi String               guifg=#9acd00       gui=NONE
+hi Entity               guifg=#fa6513       gui=NONE
+hi Support              guifg=#8fa6cd       gui=NONE
 hi Comment	            guifg=#484848       gui=NONE
 hi Special	            guifg=#fdb933       gui=NONE
 hi Constant	            guifg=#A6E22E       gui=NONE
 hi Statement	        guifg=#EE801E       gui=NONE
 hi PreProc	            guifg=OrangeRed3    gui=NONE
-hi Type		            guifg=#FF801E       gui=NONE
+hi Type		            guifg=#afdf66       gui=NONE
 hi Underlined	        gui=NONE
 hi htmlArg              guifg=#dfafdf
 hi htmlValue            guifg=#dfdfaf
