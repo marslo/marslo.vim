@@ -61,8 +61,16 @@
 "       Author: Marslo
 "       Email: marslo.jiao@gmail.com
 "       File Name: marslo256.vim
-"       Modify:
+"       Modified:
 "               Update the format
+" v1.8: Modified at 18/11/13 20:30:18
+"       Author: Marslo
+"       Email: marslo.jiao@gmail.com
+"       File Name: marslo256.vim
+"       Modified:
+"               String              guifg
+"               Entity              guifg
+"               Support             guifg
 
 " cool help screens
 " :he group-name
@@ -94,7 +102,7 @@ hi Normal	            guifg=#DDDDDD       guibg=#181818
 
 " highlight groups
 " hi Cursor	            guibg=khaki         guifg=slategrey     gui=underline
-hi Cursor	            guibg=#A6E22E       guifg=slategrey     gui=underline
+hi Cursor	            guibg=#A6E22E       guifg=#A6E22E     gui=underline
 " Color for :set cursorline (Highlight the line number only)
 " hi LineNr               guifg=#666666 guibg=background
 hi LineNr               guifg=#555555       guibg=background
@@ -105,9 +113,12 @@ hi CursorLineNr         guifg=#A6E22E       guibg=background    gui=NONE
 " hi Folded	            guibg=grey15        guifg=gold
 hi Folded	            guibg=grey15        guifg=grey60
 hi FoldColumn	        guibg=grey15        guifg=tan
+" $,>,backspace,... and other sign
 " hi NonText	        guifg=LightBlue     guibg=gray30
-hi NonText	            guifg=LightBlue     guibg=#181818
-hi VertSplit	        guibg=#c2bfa5       guifg=grey50        gui=none
+" hi NonText	            guifg=LightBlue     guibg=#181818
+hi NonText              guifg=#808080           gui=NONE
+" hi VertSplit	        guibg=#c2bfa5       guifg=grey50        gui=none
+hi VertSplit	        guibg=#282828       guifg=grey30        gui=none
 hi IncSearch	        guifg=slategrey     guibg=khaki
 hi ModeMsg	            guifg=goldenrod
 hi MoreMsg	            guifg=SeaGreen
@@ -156,6 +167,12 @@ hi treePart             guifg=#808080
 hi treeDirSlash         guifg=#808080
 hi treeLink             guifg=#dfafdf
 
+" hi String               guifg=#afdf87           gui=NONE
+" hi String               guifg=#adff00           gui=NONE
+hi String               guifg=#9acd00           gui=NONE
+hi Entity               guifg=#fa6513           gui=NONE
+hi Support              guifg=#8fa6cd           gui=NONE
+
 
 " syntax highlighting groups
 " ===========================================================
@@ -166,7 +183,7 @@ hi Comment	            guifg=#484848       gui=NONE
 " hi Special	            guifg=#c63c26
 " hi Special	            guifg=#faa755
 hi Special	            guifg=#fdb933       gui=NONE
-"""" Strings
+"""" Strings if nohi String
 " hi Constant	            guifg=#7EBE4E
 " hi Constant	            guifg=#EE801E
 hi Constant	            guifg=#A6E22E       gui=NONE
