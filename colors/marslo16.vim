@@ -73,7 +73,6 @@
 " :he cterm-colors
 
 set background=dark
-" set background=dark
 if version > 580
     " no guarantees for version 5.8 and below, but this makes it stop
     " complaining
@@ -84,28 +83,16 @@ if version > 580
 endif
 let g:colors_name="marslo16"
 
-" hi Normal	            guifg=#DDDDDD       guibg=gray20
-" hi Normal	            guifg=#DDDDDD       guibg=gray10
 hi Normal	            guifg=#DDDDDD       guibg=#181818
-
-" highlight groups
-" hi Cursor	            guibg=khaki         guifg=slategrey     gui=underline
 hi Cursor	            guibg=#A6E22E       guifg=#A6E22E     gui=underline
 " Color for :set cursorline (Highlight the line number only)
-" hi LineNr               guifg=#666666 guibg=background
 hi LineNr               guifg=#555555       guibg=background
-" hi CursorLine           guibg=darkgrey guifg=white
 hi CursorLine           guibg=background
-" hi CursorLineNr         gui=bold guifg=Yellow
 hi CursorLineNr         guifg=#A6E22E       guibg=background    gui=NONE
-" hi Folded	            guibg=grey15        guifg=gold
 hi Folded	            guibg=grey15        guifg=grey60
 hi FoldColumn	        guibg=grey15        guifg=tan
 " $,>,backspace,... and other sign
-" hi NonText	        guifg=LightBlue     guibg=gray30
-" hi NonText	            guifg=LightBlue     guibg=#181818
 hi NonText              guifg=#808080           gui=NONE
-" hi VertSplit	        guibg=#c2bfa5       guifg=grey50        gui=none
 hi VertSplit	        guibg=#282828       guifg=grey30        gui=none
 hi IncSearch	        guifg=slategrey     guibg=khaki
 hi ModeMsg	            guifg=goldenrod
@@ -113,39 +100,26 @@ hi MoreMsg	            guifg=SeaGreen
 hi Question	            guifg=springgreen
 hi Search	            guibg=peru          guifg=wheat
 hi SpecialKey	        guifg=yellowgreen
-
 " Status line for each split windows
 hi StatusLine	        guibg=gray15        guifg=black         gui=none
 hi StatusLineNC	        guibg=gray18        guifg=grey50        gui=none
-
-" hi Title	            guifg=indianred
 hi Title	            guifg=gray28
 hi Visual	            guifg=khaki         guibg=olivedrab     gui=none
-
-"hi VisualNOS
 hi WarningMsg	        guifg=salmon
-
 " The color setting for complete opt
 hi Pmenu                guibg=gray14
 hi PmenuSel             guifg=GreenYellow   guibg=gray14
 hi PmenuSbar            guifg=black         guibg=gray14
-
 """" Function name(shell) [python: print]
-" hi Identifier	        guifg=#0662f9
 hi Identifier	        guifg=#4169E1       gui=NONE
-
 hi Ignore	            guifg=grey40
 hi Todo		            guifg=orangered     guibg=yellow2
-
 " MiniBufExpl Colors
 hi MBEVisibleActive     guifg=#5DC2D6       guibg=#333333
 hi MBEVisibleNormal     guifg=#A6DB29       guibg=#333333
-
 " Inspired from http://stackoverflow.com/questions/10746750/set-vim-bracket-highlighting-colors
 " Color for :set showmatch
-" hi MatchParen           guibg=GreenYellow   gui=underline
 hi MatchParen           gui=inverse
-
 " NERDTree
 hi Directory            guifg=#87afdf
 hi treeCWD              guifg=#dfaf87
@@ -154,31 +128,15 @@ hi treeOpenable         guifg=#afdf87
 hi treePart             guifg=#808080
 hi treeDirSlash         guifg=#808080
 hi treeLink             guifg=#dfafdf
-
-" hi String               guifg=#afdf87           gui=NONE
-" hi String               guifg=#adff00           gui=NONE
 hi String               guifg=#9acd00           gui=NONE
 hi Entity               guifg=#fa6513           gui=NONE
 hi Support              guifg=#8fa6cd           gui=NONE
-
-
-" syntax highlighting groups
-" ===========================================================
-"""" Comments
 hi Comment	            guifg=#484848       gui=NONE
 """" <CR>, <leader>
-" hi Special	            guifg=#B0F080
-" hi Special	            guifg=#c63c26
-" hi Special	            guifg=#faa755
 hi Special	            guifg=#fdb933       gui=NONE
 """" Strings if nohi String
-" hi Constant	            guifg=#7EBE4E
-" hi Constant	            guifg=#EE801E
 hi Constant	            guifg=#A6E22E       gui=NONE
 """" Key words (while, if, else, for, in)
-" hi Statement	        guifg=#f47920
-" hi Statement	        guifg=#8fe28f
-" hi Statement	        guifg=#FFC864
 hi Statement	        guifg=#EE801E       gui=NONE
 """" #! color
 hi PreProc	            guifg=OrangeRed3    gui=NONE
@@ -186,29 +144,8 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 hi Type		            guifg=#FF801E       gui=NONE
 hi Special	 gui=NONE
 hi Underlined	        gui=NONE
-
 hi htmlArg              guifg=#dfafdf
 hi htmlValue            guifg=#dfdfaf
-
-" hi Identifier	        guifg=palegreen = #98FB98
-" hi Comment	        guifg=SkyBlue
-" hi Constant	        guifg=#ffa0a0
-" hi Statement	        guifg=khaki
-" hi PreProc	        guifg=indianred
-" hi Type		        guifg=darkkhaki
-" hi Error
-" hi CursorIM
-" hi Directory
-" hi DiffAdd
-" hi DiffChange
-" hi DiffDelete
-" hi DiffText
-" hi ErrorMsg
-" hi WildMenu
-" hi Menu
-" hi Scrollbar
-" hi Tooltip
-"hi Underlined
 
 " ===========================================================
 " color terminal definitions
@@ -251,27 +188,19 @@ hi WildMenu	            ctermfg=0           ctermbg=3
 hi Folded	            ctermfg=darkgrey    ctermbg=NONE
 hi FoldColumn	        ctermfg=darkgrey    ctermbg=NONE
 hi DiffAdd	            ctermbg=4
-" hi DiffChange	        ctermbg=5
 hi DiffChange	        ctermbg=2
 hi DiffDelete	        cterm=NONE          ctermfg=4 ctermbg=6
 hi DiffText	            cterm=NONE          ctermbg=1
 " The color setting for complete opt
 hi Pmenu                ctermbg=darkred
 hi PmenuSel             ctermfg=lightgreen
-" hi Identifier	        ctermfg=LightGreen
 hi Identifier	        ctermfg=Yellow
 hi Cursor               cterm=underline     term=underline
-" hi MatchParen           ctermbg=Green
 hi MatchParen           cterm=inverse       term=inverse
 hi LineNr	            ctermfg=darkgrey    ctermbg=none
-" hi CursorLine           cterm=NONE          ctermbg=darkgrey    ctermfg=white
 hi CursorLine 	        cterm=NONE
-" hi CursorLineNr       ctermfg=Yellow
 hi CursorLineNr         ctermbg=NONE        ctermfg=lightgreen     term=bold
 hi Comment	            ctermfg=darkgrey
-"""" Strings
-" hi Constant	            ctermfg=brown
-" hi Constant	            ctermfg=darkred
 hi Constant	            ctermfg=green
 """" Key words (while, if, else, for, in)
 hi Statement	        ctermfg=red
@@ -279,23 +208,8 @@ hi Statement	        ctermfg=red
 hi PreProc	            ctermfg=red
 hi Type		            ctermfg=yellow
 hi Special 	            ctermfg=yellow
-
 hi Underlined	        cterm=underline     ctermfg=5
 hi Ignore	            cterm=NONE          ctermfg=7       ctermfg=darkgrey
 hi Error	            cterm=NONE          ctermfg=7       ctermbg=1
-
-
-" Set SignColumn highlight
-" :help sign
-" :help SignColumn
-
-" hi currentLine          term=reverse        cterm=reverse       gui=reverse
-" hi breakPoint           term=NONE           cterm=NONE          gui=NONE
-" hi empty                term=NONE           cterm=NONE          gui=NONE
-
-" sign define currentLine linehl=currentLine
-" sign define breakPoint  linehl=breakPoint
-" sign define both        linehl=currentLine
-" sign define empty       linehl=empty
 
 "vim: sw=4
