@@ -193,11 +193,11 @@ hi htmlValue            guifg=#dfdfaf
 "    7	    7	    LightGray, LightGrey, Gray, Grey
 "    8	    0*	    DarkGray, DarkGrey
 "    9	    4*	    Blue, LightBlue
-"    10	    2*	    Green, LightGreen
+"    10	    2*	    Green, LightGreen (#90EE90)
 "    11	    6*	    Cyan, LightCyan
 "    12	    1*	    Red, LightRed
 "    13	    5*	    Magenta, LightMagenta
-"    14	    3*	    Yellow, LightYellow
+"    14	    3*	    Yellow, LightYellow (#FFFFE0)
 "    15	    7*	    White
 
 hi SpecialKey	        ctermfg=darkgreen
@@ -250,10 +250,11 @@ hi htmlTag              ctermfg=244
 hi htmlEndTag           ctermfg=244
 hi htmlArg              ctermfg=119
 hi htmlValue            ctermfg=187
-hi htmlTitle            ctermfg=254         ctermbg=95
+hi htmlTitle            ctermfg=184         ctermbg=NONE
 hi htmlArg              ctermfg=203
 hi htmlTagName          ctermfg=69
-hi htmlString           ctermfg=104
+" hi htmlString           ctermfg=104
+hi htmlString           ctermfg=113
 " NERDTree
 hi Directory            ctermfg=110
 hi treeCWD              ctermfg=180
