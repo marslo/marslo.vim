@@ -239,7 +239,7 @@ hi Statement	        ctermfg=red
 """" #! color
 hi PreProc	            ctermfg=red
 """" classname, <key>, <Groupname> color
-hi Type		            ctermfg=75
+hi Type		            ctermfg=69
 " hi Type		            ctermfg=221
 hi Special	            ctermfg=221
 hi Underlined	        cterm=underline     ctermfg=5
