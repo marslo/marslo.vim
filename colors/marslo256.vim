@@ -156,7 +156,9 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#4169E1       gui=NONE
 " hi Type		            guifg=#EE3E3E       gui=NONE
 " hi Type		            guifg=#B2F432       gui=NONE
-hi Type		            guifg=#D0E141       gui=NONE
+" hi Type		            guifg=#D0E141       gui=NONE
+" hi Type		            guifg=#1E90FF       gui=NONE
+hi Type		            guifg=#6495ED       gui=NONE
 hi Underlined	        gui=NONE
 hi htmlArg              guifg=#dfafdf
 hi htmlValue            guifg=#dfdfaf
@@ -237,7 +239,8 @@ hi Statement	        ctermfg=red
 """" #! color
 hi PreProc	            ctermfg=red
 """" classname, <key>, <Groupname> color
-hi Type		            ctermfg=221
+hi Type		            ctermfg=75
+" hi Type		            ctermfg=221
 hi Special	            ctermfg=221
 hi Underlined	        cterm=underline     ctermfg=5
 hi Ignore	            cterm=NONE          ctermfg=7       ctermfg=darkgrey
