@@ -158,6 +158,7 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#B2F432       gui=NONE
 " hi Type		            guifg=#D0E141       gui=NONE
 " hi Type		            guifg=#1E90FF       gui=NONE
+" hi Type		            guifg=#a4c148       gui=NONE
 hi Type		            guifg=#6495ED       gui=NONE
 hi Underlined	        gui=NONE
 hi htmlArg              guifg=#dfafdf
