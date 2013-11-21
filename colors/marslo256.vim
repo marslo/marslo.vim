@@ -205,7 +205,7 @@ hi htmlValue            guifg=#dfdfaf
 
 hi SpecialKey	        ctermfg=darkgreen
 hi NonText	            cterm=NONE          ctermfg=darkblue
-hi Directory	        ctermfg=red
+hi Directory	        ctermfg=63
 hi ErrorMsg	            cterm=NONE          ctermfg=red         ctermbg=0
 hi IncSearch	        cterm=NONE          ctermfg=yellow      ctermbg=green
 hi Search	            cterm=NONE          ctermfg=grey        ctermbg=blue
@@ -259,7 +259,7 @@ hi htmlTagName          ctermfg=69
 " hi htmlString           ctermfg=104
 hi htmlString           ctermfg=113
 " NERDTree
-hi Directory            ctermfg=110
+" hi Directory            ctermfg=110
 hi treeCWD              ctermfg=180
 hi treeClosable         ctermfg=174
 hi treeOpenable         ctermfg=150
