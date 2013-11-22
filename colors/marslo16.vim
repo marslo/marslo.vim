@@ -193,7 +193,8 @@ hi htmlValue            guifg=#dfdfaf
 "    15	    7*	    White
 
 hi SpecialKey	        ctermfg=darkgreen
-hi NonText	            cterm=NONE          ctermfg=darkblue
+" hi NonText	            cterm=NONE          ctermfg=darkblue
+hi NonText	            cterm=NONE          ctermfg=DarkGray
 hi Directory	        ctermfg=red
 hi ErrorMsg	            cterm=NONE          ctermfg=red         ctermbg=0
 hi IncSearch	        cterm=NONE          ctermfg=yellow      ctermbg=green

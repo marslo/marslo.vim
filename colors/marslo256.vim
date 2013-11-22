@@ -204,7 +204,8 @@ hi htmlValue            guifg=#dfdfaf
 "    15	    7*	    White
 
 hi SpecialKey	        ctermfg=darkgreen
-hi NonText	            cterm=NONE          ctermfg=darkblue
+" hi NonText	            cterm=NONE          ctermfg=157
+hi NonText	            cterm=NONE          ctermfg=239
 hi Directory	        ctermfg=63
 hi ErrorMsg	            cterm=NONE          ctermfg=red         ctermbg=0
 hi IncSearch	        cterm=NONE          ctermfg=yellow      ctermbg=green
@@ -222,11 +223,11 @@ hi WarningMsg	        ctermfg=yellow      ctermbg=black
 hi WildMenu	            ctermfg=0           ctermbg=3
 hi Folded	            ctermfg=darkgrey    ctermbg=NONE
 hi FoldColumn	        ctermfg=darkgrey    ctermbg=NONE
-hi DiffAdd	            cterm=NONE          ctermbg=56     ctermfg=255
+hi DiffAdd	            cterm=NONE          ctermbg=56          ctermfg=255
 hi DiffDelete	        cterm=NONE          ctermbg=239
 hi DiffAdded            ctermbg=93
 hi DiffRemoved          ctermbg=129
-hi DiffChange	        cterm=bold          ctermbg=99      ctermfg=255
+hi DiffChange	        cterm=bold          ctermbg=99          ctermfg=255
 hi DiffText	            cterm=NONE          ctermbg=196
 hi Pmenu                ctermbg=darkred
 hi PmenuSel             ctermfg=lightgreen
