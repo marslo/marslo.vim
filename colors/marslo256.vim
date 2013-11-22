@@ -151,9 +151,13 @@ hi String               guifg=#9acd00       gui=NONE
 hi Entity               guifg=#fa6513       gui=NONE
 hi Support              guifg=#8fa6cd       gui=NONE
 hi Comment	            guifg=#484848       gui=NONE
+"""" <CR>, <leader>
 hi Special	            guifg=#fdb933       gui=NONE
+"""" Strings if nohi String
 hi Constant	            guifg=#A6E22E       gui=NONE
+"""" Key words (while, if, else, for, in)
 hi Statement	        guifg=#EE801E       gui=NONE
+"""" #! color
 hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#afdf66       gui=NONE
 " hi Type		            guifg=#4169E1       gui=NONE
@@ -162,10 +166,17 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#D0E141       gui=NONE
 " hi Type		            guifg=#1E90FF       gui=NONE
 " hi Type		            guifg=#a4c148       gui=NONE
-hi Type		            guifg=#6495ED       gui=NONE
+" hi Type		            guifg=#6495ED       gui=NONE
+hi Type		            guifg=#5F87FF       gui=NONE
 hi Underlined	        gui=NONE
-hi htmlArg              guifg=#dfafdf
-hi htmlValue            guifg=#dfdfaf
+" HTML
+hi htmlTag              guifg=#484848
+hi htmlEndTag           guifg=#484848
+hi htmlArg              guifg=#FF5F5F
+hi htmlValue            guifg=#D7D7AF
+hi htmlTitle            guifg=#D7D700         gui=NONE
+hi htmlTagName          guifg=#5F87FF
+hi htmlString           guifg=#87d75f
 
 " For syntax-python
 " hi link Define          Entity
@@ -250,12 +261,12 @@ hi Special	            ctermfg=221
 hi Underlined	        cterm=underline     ctermfg=5
 hi Ignore	            cterm=NONE          ctermfg=7       ctermfg=darkgrey
 hi Error	            cterm=NONE          ctermfg=7       ctermbg=1
+" HTML
 hi htmlTag              ctermfg=244
 hi htmlEndTag           ctermfg=244
-hi htmlArg              ctermfg=119
+hi htmlArg              ctermfg=203
 hi htmlValue            ctermfg=187
 hi htmlTitle            ctermfg=184         ctermbg=NONE
-hi htmlArg              ctermfg=203
 hi htmlTagName          ctermfg=69
 " hi htmlString           ctermfg=104
 hi htmlString           ctermfg=113

@@ -93,9 +93,9 @@ hi LineNr               guifg=#555555       guibg=background
 hi CursorLine           guibg=background
 hi CursorLineNr         guifg=#A6E22E       guibg=background    gui=NONE
 hi Folded	            guibg=grey15        guifg=grey60
-hi FoldColumn	        guibg=#181818        guifg=#484848
+hi FoldColumn	        guibg=#181818       guifg=#484848
 " $,>,backspace,... and other sign
-hi NonText              guifg=#808080           gui=NONE
+hi NonText              guifg=#808080       gui=NONE
 hi VertSplit	        guibg=#282828       guifg=grey30        gui=none
 hi IncSearch	        guifg=slategrey     guibg=khaki
 hi ModeMsg	            guifg=goldenrod
@@ -106,8 +106,10 @@ hi SpecialKey	        guifg=yellowgreen
 " Status line for each split windows
 hi StatusLine	        guibg=gray15        guifg=black         gui=none
 hi StatusLineNC	        guibg=gray18        guifg=grey50        gui=none
+" hi Title	            guifg=indianred
 hi Title	            guifg=gray28
 hi Visual	            guifg=khaki         guibg=olivedrab     gui=none
+"hi VisualNOS
 hi WarningMsg	        guifg=salmon
 " The color setting for complete opt
 hi Pmenu                guibg=gray14
@@ -151,10 +153,17 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#D0E141       gui=NONE
 " hi Type		            guifg=#1E90FF       gui=NONE
 " hi Type		            guifg=#a4c148       gui=NONE
-hi Type		            guifg=#6495ED       gui=NONE
+" hi Type		            guifg=#6495ED       gui=NONE
+hi Type		            guifg=#5F87FF       gui=NONE
 hi Underlined	        gui=NONE
-hi htmlArg              guifg=#dfafdf
-hi htmlValue            guifg=#dfdfaf
+" HTML
+hi htmlTag              guifg=#484848
+hi htmlEndTag           guifg=#484848
+hi htmlArg              guifg=#FF5F5F
+hi htmlValue            guifg=#D7D7AF
+hi htmlTitle            guifg=#D7D700         gui=NONE
+hi htmlTagName          guifg=#5F87FF
+hi htmlString           guifg=#87d75f
 
 " For syntax-python
 " hi link Define          Entity
@@ -205,7 +214,7 @@ hi Question	            ctermfg=green
 hi StatusLine	        cterm=NONE          ctermfg=darkgray    ctermbg=black
 hi StatusLineNC         cterm=NONE
 hi VertSplit	        cterm=NONE
-hi Title	            ctermfg=5
+hi Title	            cterm=NONE          ctermfg=5
 hi Visual	            cterm=underline     ctermbg=NONE
 hi VisualNOS	        cterm=underline
 hi WarningMsg	        ctermfg=yellow      ctermbg=black
