@@ -247,6 +247,9 @@ hi Cursor               cterm=underline     term=underline
 hi MatchParen           cterm=inverse       term=inverse
 hi LineNr               ctermfg=239         ctermbg=none
 hi CursorLine           cterm=NONE
+hi String               ctermfg=82       gui=NONE
+hi Entity               ctermfg=166       gui=NONE
+hi Support              ctermfg=202       gui=NONE
 hi CursorLineNr         ctermbg=NONE        ctermfg=118         term=bold
 hi Comment	            ctermfg=239
 hi Constant	            ctermfg=113
