@@ -1,84 +1,17 @@
-" Vim color file
-" Maintainer:	Hans Fugal <hans@fugal.net>
-" Last Change:	$Date: 2004/06/13 19:30:30 $
-" URL:		http://hans.fugal.net/vim/colors/desert.vim
-" Version:	$Id: desert.vim,v 1.1 2004/06/13 19:30:30 vimboss Exp $
+" =============================================================================
+"       FileName: marslo256.vim
+"           Desc:
+"             cool help screens
+"             :he group-name
+"             :he highlight-groups
+"             :he cterm-colors
+"         Author: Marslo
+"          Email: marslo.jiao@gmail.com
+"        Created: 2012-05-29
+"        Version: 0.1.9
+"     LastChange: 2013-12-30 19:51:11
+" =============================================================================
 
-" v1.0: Modified at 2012.05.29
-"       Author: Marslo
-"       Email: marslo.vida@gmail.com
-"       File Name: desert_Marslo_ForLinux
-" v1.1: Modified at 18/10/2012 16:49:12.92
-"       Author: Marslo
-"       Email: marslo.vida@gmail.com
-"       File Name: desert_Marslo_ForLinux_2
-" v1.2: Modified at 08/11/2012 16:05:59.95
-"       Author: Marslo
-"       Email: marslo.vida@gmail.com
-"       File Name: desert_Marslo_ForLinux_3
-"       Modified: g:colors_name
-"                 Normal        guibg
-"                 NonText       guibg
-"                 StatusLine    guibg
-"                 StatusLineNC  guibg
-"                 Folded        guibg
-"                 FoldColumn    guibg
-" v1.3: Modified at 17/12/12 19:36:21
-"       Author: Marslo
-"       Email: marslo.vida@gmail.com
-"       File Name: desert_Marslo_ForLinux_v3
-"       Modifed:
-"                Pmenu        guibg ctermbg
-"                PmenuSel     guifg guibg ctermbg
-"                PmenuSbar    guifg guibg
-" v1.4: Modified at 31/10/13 15:47:08
-"       Author: Marslo
-"       Email:  marslo.jiao@gmail.com
-"       File Name: marslo.vim
-"       Added:
-"               MatchParen      guibg ctermbg gui cterm term
-"               LineNr          guifg guibg ctermfg ctermbg
-"               CursorLineNr    guifg guibg gui ctermbg ctermfg
-" v1.5: Modified at 07/11/13 17:52:47
-"       Author: Marslo
-"       Email: marslo.jiao@gmail.com
-"       File Name: marslo.vim
-"       Added:
-"               MBEVisibleActive    guifg guibg
-"               MBEVisibleNormal    guifg guibg
-" v1.6: Modified at 12/11/13 14:08:10
-"       Author: Marslo
-"       Email: marslo.jiao@gmail.com
-"       File Name: marslo265.vim
-"       Add:
-"               HTML tags
-"               NERDTree
-"       Modifiy:
-"               Identifier          cterm
-"               Visual              ctermfg
-"               Change name from marslo.vim to marslo256.vim
-" v.1.7: Modified at 12/11/13 15:58:50
-"       Author: Marslo
-"       Email: marslo.jiao@gmail.com
-"       File Name: marslo256.vim
-"       Modified:
-"               Update the format
-" v1.8: Modified at 18/11/13  20:03:20
-"       Author: Marslo
-"       Email: marslo.jiao@gmail.com
-"       File Name: marslo256.vim
-"       Modified:
-"               String              guifg
-"               Entity              guifg
-"               Support             guifg
-"               Type                guifg
-"               FoldColumn          guifg
-"               Directory           guifg
-
-" cool help screens
-" :he group-name
-" :he highlight-groups
-" :he cterm-colors
 
 set background=dark
 " set background=dark
