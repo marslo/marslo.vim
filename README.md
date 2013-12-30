@@ -2,18 +2,117 @@ marslo.vim
 ==========
 The vim color configurate by Marslo, including 256 and 16
 
-## Usage:
-### By manual:
-- Download the **marslo16.vim** and **marslo256.vim**
-- Put the file into colors folder, for example:
-    - <pre><code>C:\Program Files (x86)\Vim\vim74\colors</code></pre>
-    - <pre><code>C:\Program Files (x86)\Vim\vimfiles\colors</code></pre> | **Recommend**
+## Context
+- [Usage](https://github.com/Marslo/marslo.vim#usage)
+  - Installation:
+    - [By Manual](https://github.com/Marslo/marslo.vim#by-manual)
+    - [By Vundle](https://github.com/Marslo/marslo.vim#by-vundle)
+  - Use it:
+    - [Use marslo.vim in my vim]
+- [使用方法]
+  - 安装方法：
+    - [手动添加]
+    - [使用Vundle管理]
+  - 使用：
+    - [在我的vim中使用marslo.vim配色]
+- [Screenshot](https://github.com/Marslo/marslo.vim#screenshot)
+- [Helps and Documents about vim color](https://github.com/Marslo/marslo.vim#documents-about-vim-color)
+- [Change Logs](https://github.com/Marslo/marslo.vim#changelog)
+  - [256 color](https://github.com/Marslo/marslo.vim#256color)
+  - [16 color](https://github.com/Marslo/marslo.vim#16colors)
+- [Thanks For](https://github.com/Marslo/marslo.vim#thanks-for)
 
-### By Vundle:
-- Copy the setting into **_vimrc**(windows) or **.vimrc**(Linux):
-<pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
-- Add execute the command as below in vim/gvim:
-<pre><code>:BundleInstall</code></pre>
+
+## Usage:
+  ### Installation:
+    #### By manual:
+    - Download the **marslo16.vim** and **marslo256.vim**
+    - Put the file into colors folder, for example:
+      - <pre><code>C:\Program Files (x86)\Vim\vim74\colors</code></pre>
+      - **Recommend**: <pre><code>C:\Program Files (x86)\Vim\vimfiles\colors</code></pre>
+
+    #### By Vundle:
+    - Copy the setting into **_vimrc**(windows) or **.vimrc**(Linux):
+    <pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
+    - Add execute the command as below in vim/gvim:
+    <pre><code>:BundleInstall</code></pre>
+  ### How to use it
+    #### For Linux:
+      - Add the following configure to `.bashrc` (~/.bashrc) make termianl support 256 color:
+        <pre><code> if [ -e /usr/share/terminfo/x/xterm-256color ];
+        then
+            export TERM='xterm-256color'
+        # Ubuntu
+        elif [ -e /lib/terminfo/x/xterm-256color ];
+        then
+            export TERM='xterm-256color'
+        else
+            export TERM='xterm-color'
+        fi
+        </code></pre>
+      - And, and the following configure to `.vimrc` (~/.vimrc)
+        <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
+          colorscheme marslo256
+          let psc_style='cool'
+        else
+          colorscheme marslo16
+        endif
+        </code></pre>
+    #### For Windows:
+      - Just Add the fowlling configure to `_vimrc` (C:\Program Files (x86)\Vim\_vimrc [64bit system])
+        <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
+          colorscheme marslo256
+          let psc_style='cool'
+        else
+          colorscheme marslo16
+        endif
+        </code></pre>
+
+## 使用方法
+  ### 如何安装
+    #### 手动添加
+    - 下载 **marslo16.vim** 和 **marslo256.vim**
+    - 将两个文件都放入vim的colors目录， 例如（64位系统）:
+      - <pre><code>C:\Program Files (x86)\Vim\vim74\colors</code></pre>
+      - **强烈推荐**: <pre><code>C:\Program Files (x86)\Vim\vimfiles\colors</code></pre>
+
+    #### 使用[Vundle](https://github.com/gmarik/vundle)管理
+    - 将如下代码拷贝复制至 **_vimrc**(windows) 或 **.vimrc**(Linux)
+    <pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
+    - 在 vim/gvim 中运行如下命令即可完成自动安装:
+    <pre><code>:BundleInstall</code></pre>
+
+  ### 如何使用
+    #### Linux 用户
+      - 将如下配置添加至 `.bashrc` (~/.bashrc), 使得Linux终端（terminal）支持256色:
+        <pre><code> if [ -e /usr/share/terminfo/x/xterm-256color ];
+        then
+            export TERM='xterm-256color'
+        # Ubuntu
+        elif [ -e /lib/terminfo/x/xterm-256color ];
+        then
+            export TERM='xterm-256color'
+        else
+            export TERM='xterm-color'
+        fi
+        </code></pre>
+      - 然后，将如下配置添加至 `.vimrc` (~/.vimrc)
+        <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
+          colorscheme marslo256
+          let psc_style='cool'
+        else
+          colorscheme marslo16
+        endif
+        </code></pre>
+    #### Windows用户
+      - 只需将如下配置加入 `_vimrc` 文件即可 (C:\Program Files (x86)\Vim\_vimrc [64bit system])
+        <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
+          colorscheme marslo256
+          let psc_style='cool'
+        else
+          colorscheme marslo16
+        endif
+        </code></pre>
 
 ## Screenshot:
 - Windows:
@@ -139,5 +238,5 @@ v1.9: Modified at 30/12/13 19:51:11
               spearate the change log
 </code></pre>
 
-## Thanks for 
+## Thanks for
 - Hans Fugal <hans@fugal.net> (http://hans.fugal.net/vim/colors/desert.vim)
