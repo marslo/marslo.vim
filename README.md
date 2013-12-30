@@ -4,17 +4,19 @@ The vim color configurate by Marslo, including 256 and 16
 
 ## Context
 - [Usage](https://github.com/Marslo/marslo.vim#usage)
-  - Installation:
+  - [Installation](https://github.com/Marslo/marslo.vim#installation):
     - [By Manual](https://github.com/Marslo/marslo.vim#by-manual)
     - [By Vundle](https://github.com/Marslo/marslo.vim#by-vundle)
-  - Use it:
-    - [Use marslo.vim in my vim]
-- [使用方法]
-  - 安装方法：
-    - [手动添加]
+  - [Use marslo.vim in my vim](https://github.com/Marslo/marslo.vim#how-to-use-it):
+    - [For Linux](https://github.com/Marslo/marslo.vim#for-linux)
+    - [For WIndows](https://github.com/Marslo/marslo.vim#for-windows)
+- [使用方法](https://github.com/Marslo/marslo.vim#使用方法)
+  - [安装方法](https://github.com/Marslo/marslo.vim#如何安装)：
+    - [手动添加](https://github.com/Marslo/marslo.vim#手动添加)
     - [使用Vundle管理]
-  - 使用：
-    - [在我的vim中使用marslo.vim配色]
+  - [在我的vim中使用marslo.vim配色](https://github.com/Marslo/marslo.vim#如何使用)：
+    - [Linux用户](https://github.com/Marslo/marslo.vim#linux-用户)
+    - [Windows用户](https://github.com/Marslo/marslo.vim#windows-用户)
 - [Screenshot](https://github.com/Marslo/marslo.vim#screenshot)
 - [Helps and Documents about vim color](https://github.com/Marslo/marslo.vim#documents-about-vim-color)
 - [Change Logs](https://github.com/Marslo/marslo.vim#changelog)
@@ -30,6 +32,7 @@ The vim color configurate by Marslo, including 256 and 16
 - Put the file into colors folder, for example:
   - <pre><code>C:\Program Files (x86)\Vim\vim74\colors</code></pre>
   - **Recommend**: <pre><code>C:\Program Files (x86)\Vim\vimfiles\colors</code></pre>
+
 #### By Vundle:
 - Copy the setting into **_vimrc**(windows) or **.vimrc**(Linux):
   <pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
@@ -58,6 +61,7 @@ The vim color configurate by Marslo, including 256 and 16
       colorscheme marslo16
     endif
     </code></pre>
+
 #### For Windows:
   - Just Add the fowlling configure to `_vimrc` (C:\Program Files (x86)\Vim\_vimrc [64bit system])
     <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
@@ -70,16 +74,18 @@ The vim color configurate by Marslo, including 256 and 16
 
 ## 使用方法
 ### 如何安装
+
 #### 手动添加
 - 下载 **marslo16.vim** 和 **marslo256.vim**
 - 将两个文件都放入vim的colors目录， 例如（64位系统）:
   - <pre><code>C:\Program Files (x86)\Vim\vim74\colors</code></pre>
   - **强烈推荐**: <pre><code>C:\Program Files (x86)\Vim\vimfiles\colors</code></pre>
+
 #### 使用[Vundle](https://github.com/gmarik/vundle)管理
 - 将如下代码拷贝复制至 **_vimrc**(windows) 或 **.vimrc**(Linux)
-<pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
+  <pre><code>Bundle 'Marslo/marslo.vim'</code></pre>
 - 在 vim/gvim 中运行如下命令即可完成自动安装:
-<pre><code>:BundleInstall</code></pre>
+  <pre><code>:BundleInstall</code></pre>
 
 ### 如何使用
 #### Linux 用户
@@ -103,6 +109,7 @@ The vim color configurate by Marslo, including 256 and 16
       colorscheme marslo16
     endif
     </code></pre>
+
 #### Windows用户
   - 只需将如下配置加入 `_vimrc` 文件即可 (C:\Program Files (x86)\Vim\_vimrc [64bit system])
     <pre><code>if has('gui_running') || 'xterm-256color' == $TERM
