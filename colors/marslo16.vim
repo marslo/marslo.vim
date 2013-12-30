@@ -86,39 +86,39 @@ if version > 580
 endif
 let g:colors_name="marslo16"
 
-hi Normal	            guifg=#DDDDDD       guibg=#181818
-hi Cursor	            guibg=#A6E22E       guifg=#A6E22E     gui=underline
+hi Normal	              guifg=#DDDDDD       guibg=#181818
+hi Cursor	              guibg=#A6E22E       guifg=#A6E22E     gui=underline
 " Color for :set cursorline (Highlight the line number only)
 hi LineNr               guifg=#555555       guibg=background
 hi CursorLine           guibg=background
 hi CursorLineNr         guifg=#A6E22E       guibg=background    gui=NONE
-hi Folded	            guibg=grey15        guifg=grey60
-hi FoldColumn	        guibg=#181818       guifg=#484848
+hi Folded	              guibg=grey15        guifg=grey60
+hi FoldColumn	          guibg=#181818       guifg=#484848
 " $,>,backspace,... and other sign
 hi NonText              guifg=#808080       gui=NONE
-hi VertSplit	        guibg=#282828       guifg=grey30        gui=none
-hi IncSearch	        guifg=slategrey     guibg=khaki
+hi VertSplit	          guibg=#282828       guifg=grey30        gui=none
+hi IncSearch	          guifg=slategrey     guibg=khaki
 hi ModeMsg	            guifg=goldenrod
 hi MoreMsg	            guifg=SeaGreen
 hi Question	            guifg=springgreen
-hi Search	            guibg=peru          guifg=wheat
-hi SpecialKey	        guifg=yellowgreen
+hi Search	              guibg=peru          guifg=wheat
+hi SpecialKey	          guifg=yellowgreen
 " Status line for each split windows
-hi StatusLine	        guibg=gray15        guifg=black         gui=none
+hi StatusLine	          guibg=gray15        guifg=black         gui=none
 hi StatusLineNC	        guibg=gray18        guifg=grey50        gui=none
 " hi Title	            guifg=indianred
-hi Title	            guifg=gray28
-hi Visual	            guifg=khaki         guibg=olivedrab     gui=none
+hi Title	              guifg=gray28
+hi Visual	              guifg=khaki         guibg=olivedrab     gui=none
 "hi VisualNOS
-hi WarningMsg	        guifg=salmon
+hi WarningMsg	          guifg=salmon
 " The color setting for complete opt
 hi Pmenu                guibg=gray14
 hi PmenuSel             guifg=GreenYellow   guibg=gray14
 hi PmenuSbar            guifg=black         guibg=gray14
 """" Function name(shell) [python: print]
-hi Identifier	        guifg=#4169E1       gui=NONE
-hi Ignore	            guifg=grey40
-hi Todo		            guifg=orangered     guibg=yellow2
+hi Identifier	          guifg=#4169E1       gui=NONE
+hi Ignore	              guifg=grey40
+hi Todo		              guifg=orangered     guibg=yellow2
 " MiniBufExpl Colors
 hi MBEVisibleActive     guifg=#5DC2D6       guibg=#333333
 hi MBEVisibleNormal     guifg=#A6DB29       guibg=#333333
@@ -143,7 +143,7 @@ hi Special	            guifg=#fdb933       gui=NONE
 """" Strings if nohi String
 hi Constant	            guifg=#A6E22E       gui=NONE
 """" Key words (while, if, else, for, in)
-hi Statement	        guifg=#EE801E       gui=NONE
+hi Statement	          guifg=#EE801E       gui=NONE
 """" #! color
 hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#afdf66       gui=NONE
@@ -154,8 +154,8 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#1E90FF       gui=NONE
 " hi Type		            guifg=#a4c148       gui=NONE
 " hi Type		            guifg=#6495ED       gui=NONE
-hi Type		            guifg=#5F87FF       gui=NONE
-hi Underlined	        gui=NONE
+hi Type		              guifg=#5F87FF       gui=NONE
+hi Underlined	          gui=NONE
 " HTML
 hi htmlTag              guifg=#484848
 hi htmlEndTag           guifg=#484848
@@ -184,14 +184,14 @@ hi htmlString           guifg=#87d75f
 " color terminal definitions
 "                       *cterm-colors*
 "    NR-16   NR-8    COLOR NAME ~
-"    0	    0	    Black
-"    1	    4	    DarkBlue
-"    2	    2	    DarkGreen
-"    3	    6	    DarkCyan
-"    4	    1	    DarkRed
-"    5	    5	    DarkMagenta
-"    6	    3	    Brown,          DarkYellow
-"    7	    7	    LightGray,      LightGrey,      Gray,       Grey
+"    0	    0	      Black
+"    1	    4	      DarkBlue
+"    2	    2	      DarkGreen
+"    3	    6	      DarkCyan
+"    4	    1	      DarkRed
+"    5	    5	      DarkMagenta
+"    6	    3	      Brown,          DarkYellow
+"    7	    7	      LightGray,      LightGrey,      Gray,       Grey
 "    8	    0*	    DarkGray,       DarkGrey
 "    9	    4*	    Blue,           LightBlue
 "    10	    2*	    Green,          LightGreen (#90EE90)
@@ -201,49 +201,49 @@ hi htmlString           guifg=#87d75f
 "    14	    3*	    Yellow,         LightYellow (#FFFFE0)
 "    15	    7*	    White
 
-hi SpecialKey	        ctermfg=darkgreen
+hi SpecialKey	          ctermfg=darkgreen
 " hi NonText	            cterm=NONE          ctermfg=darkblue
 hi NonText	            cterm=NONE          ctermfg=DarkGray
-hi Directory	        ctermfg=red
+hi Directory	          ctermfg=red
 hi ErrorMsg	            cterm=NONE          ctermfg=red         ctermbg=0
-hi IncSearch	        cterm=NONE          ctermfg=yellow      ctermbg=green
-hi Search	            cterm=NONE          ctermfg=grey        ctermbg=blue
+hi IncSearch	          cterm=NONE          ctermfg=yellow      ctermbg=green
+hi Search	              cterm=NONE          ctermfg=grey        ctermbg=blue
 hi MoreMsg	            ctermfg=darkgreen
 hi ModeMsg	            cterm=NONE          ctermfg=brown
 hi Question	            ctermfg=green
-hi StatusLine	        cterm=NONE          ctermfg=darkgray    ctermbg=black
+hi StatusLine	          cterm=NONE          ctermfg=darkgray    ctermbg=black
 hi StatusLineNC         cterm=NONE
-hi VertSplit	        cterm=NONE
-hi Title	            cterm=NONE          ctermfg=5
-hi Visual	            cterm=underline     ctermbg=NONE
-hi VisualNOS	        cterm=underline
-hi WarningMsg	        ctermfg=yellow      ctermbg=black
+hi VertSplit	          cterm=NONE
+hi Title	              cterm=NONE          ctermfg=5
+hi Visual	              cterm=underline     ctermbg=NONE
+hi VisualNOS	          cterm=underline
+hi WarningMsg	          ctermfg=yellow      ctermbg=black
 hi WildMenu	            ctermfg=0           ctermbg=3
-hi Folded	            ctermfg=darkgrey    ctermbg=NONE
-hi FoldColumn	        ctermfg=darkgrey    ctermbg=NONE
+hi Folded	              ctermfg=darkgrey    ctermbg=NONE
+hi FoldColumn	          ctermfg=darkgrey    ctermbg=NONE
 hi DiffAdd	            ctermbg=4
-hi DiffChange	        ctermbg=2
-hi DiffDelete	        cterm=NONE          ctermfg=4 ctermbg=6
+hi DiffChange	          ctermbg=2
+hi DiffDelete	          cterm=NONE          ctermfg=4 ctermbg=6
 hi DiffText	            cterm=NONE          ctermbg=1
 " The color setting for complete opt
 hi Pmenu                ctermbg=darkred
 hi PmenuSel             ctermfg=lightgreen
-hi Identifier	        ctermfg=Yellow
+hi Identifier	          ctermfg=Yellow
 hi Cursor               cterm=underline     term=underline
 hi MatchParen           cterm=inverse       term=inverse
-hi LineNr	            ctermfg=darkgrey    ctermbg=none
+hi LineNr	              ctermfg=darkgrey    ctermbg=none
 hi CursorLine 	        cterm=NONE
 hi CursorLineNr         ctermbg=NONE        ctermfg=lightgreen     term=bold
 hi Comment	            ctermfg=darkgrey
 hi Constant	            ctermfg=green
 """" Key words (while, if, else, for, in)
-hi Statement	        ctermfg=red
+hi Statement	          ctermfg=red
 """" #! color
 hi PreProc	            ctermfg=red
-hi Type		            ctermfg=yellow
+hi Type		              ctermfg=yellow
 hi Special 	            ctermfg=yellow
-hi Underlined	        cterm=underline     ctermfg=5
-hi Ignore	            cterm=NONE          ctermfg=7       ctermfg=darkgrey
-hi Error	            cterm=NONE          ctermfg=7       ctermbg=1
+hi Underlined	          cterm=underline     ctermfg=5
+hi Ignore	              cterm=NONE          ctermfg=7       ctermfg=darkgrey
+hi Error	              cterm=NONE          ctermfg=7       ctermbg=1
 
 "vim: sw=4
