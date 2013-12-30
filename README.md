@@ -20,8 +20,14 @@ The vim color configurate by Marslo, including 256 and 16
 ![windows](https://github.com/Marslo/marslo.vim/blob/master/Screenshots/my256colors.png?raw=true)
 - Linux:
 
+## Documents about vim color:
+- [rgb.txt](http://fugal.net/vim/rgbtxt.html) | [name with RGB hexadecimal number](https://github.com/Marslo/MarsloVimOthers/blob/master/AboutGvimColors/rgb/myrgb.txt)
+- [vim wiki: View all colors available to gvim](http://vim.wikia.com/wiki/View_all_colors_available_to_gvim)
+- [vim wiki: Xterm256 color names for console Vim](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim)
+
 ## ChangeLog:
 ### 256color:
+<pre><code>
 v1.0: Modified at 2012.05.29
       File Name: desert_Marslo_ForLinux
 v1.1: Modified at 18/10/2012 16:49:12.92
@@ -77,8 +83,10 @@ v1.8: Modified at 18/11/13  20:03:20
 v1.9: Modified at 30/12/13 19:51:11
       Modified:
               spearate the change log
+</code></pre>
 
 ### 16colors
+<pre><code>
 v1.0: Modified at 2012.05.29
       File Name: desert_Marslo_ForLinux
 v1.1: Modified at 18/10/2012 16:49:12.92
@@ -129,6 +137,7 @@ v1.8: Modified at 18/11/13  20:03:20
 v1.9: Modified at 30/12/13 19:51:11
       Modified:
               spearate the change log
+</code></pre>
 
 ## Thanks for 
 - Hans Fugal <hans@fugal.net> (http://hans.fugal.net/vim/colors/desert.vim)
