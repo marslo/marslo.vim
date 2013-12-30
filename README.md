@@ -13,7 +13,7 @@ The vim color configurate by Marslo, including 256 and 16
 - [使用方法](https://github.com/Marslo/marslo.vim#使用方法)
   - [安装方法](https://github.com/Marslo/marslo.vim#如何安装)：
     - [手动添加](https://github.com/Marslo/marslo.vim#手动添加)
-    - [使用Vundle管理]
+    - [使用Vundle管理](https://github.com/Marslo/marslo.vim#使用vundle管理)
   - [在我的vim中使用marslo.vim配色](https://github.com/Marslo/marslo.vim#如何使用)：
     - [Linux用户](https://github.com/Marslo/marslo.vim#linux-用户)
     - [Windows用户](https://github.com/Marslo/marslo.vim#windows-用户)
@@ -126,7 +126,7 @@ The vim color configurate by Marslo, including 256 and 16
 - Linux:
 
 ## Documents about vim color:
-- [rgb.txt](http://fugal.net/vim/rgbtxt.html) | [name with RGB hexadecimal number](https://github.com/Marslo/MarsloVimOthers/blob/master/AboutGvimColors/rgb/myrgb.txt)
+- [rgb.txt](http://fugal.net/vim/rgbtxt.html) | [Name with RGB hexadecimal number](https://github.com/Marslo/MarsloVimOthers/blob/master/AboutGvimColors/rgb/myrgb.txt)
 - [vim wiki: View all colors available to gvim](http://vim.wikia.com/wiki/View_all_colors_available_to_gvim)
 - [vim wiki: Xterm256 color names for console Vim](http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim)
 
