@@ -118,6 +118,8 @@ hi Function             guifg=#4169E1
 hi Structure            guifg=#EE2C2C
 hi Define               guifg=#EE2C2C
 hi Conditional          guifg=#AFDF66
+" hi Operator             guifg=#836fff
+hi Operator             guifg=#FF8C00
 " hi link Function        Entity
 " hi link Structure       Support
 " hi link Special         Support
