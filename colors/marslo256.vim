@@ -225,10 +225,10 @@ hi treePart             ctermfg=244
 hi treeDirSlash         ctermfg=244
 hi treeLink             ctermfg=182
 
-hi Boolean              ctermfg=203
+hi Boolean              ctermfg=196
 hi Function             ctermfg=105
 hi Structure            ctermfg=202
-hi Define               ctermfg=202
+hi Define               ctermfg=179
 hi Conditional          ctermfg=190
 hi Operator             ctermfg=208
 
