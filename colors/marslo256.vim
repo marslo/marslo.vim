@@ -95,12 +95,12 @@ hi PreProc	            guifg=OrangeRed3    gui=NONE
 " hi Type		            guifg=#afdf66       gui=NONE
 " hi Type		            guifg=#4169E1       gui=NONE
 " hi Type		            guifg=#EE3E3E       gui=NONE
-" hi Type		            guifg=#B2F432       gui=NONE
+hi Type		            guifg=#B2F432       gui=NONE
 " hi Type		            guifg=#D0E141       gui=NONE
 " hi Type		            guifg=#1E90FF       gui=NONE
 " hi Type		            guifg=#a4c148       gui=NONE
 " hi Type		            guifg=#6495ED       gui=NONE
-hi Type		              guifg=#5F87FF       gui=NONE
+" hi Type		              guifg=#5F87FF       gui=NONE
 hi Underlined	          gui=NONE
 " HTML
 hi htmlTag              guifg=#484848
@@ -110,7 +110,8 @@ hi htmlValue            guifg=#D7D7AF
 hi htmlTitle            guifg=#D7D700         gui=NONE
 hi htmlTagName          guifg=#5F87FF
 hi htmlString           guifg=#87d75f
-
+" For css3 -webkit- -moz-
+hi VendorPrefix         guifg=#FF4500         gui=NONE
 " For syntax-python
 hi Boolean              guifg=#EE3E3E
 " hi Boolean              guifg=#4155EE
@@ -202,7 +203,8 @@ hi Statement	          ctermfg=red
 hi PreProc	            ctermfg=red
 """" classname, <key>, <Groupname> color
 " hi Type		            ctermfg=221
-hi Type		              ctermfg=69
+" hi Type		              ctermfg=69
+hi Type		              ctermfg=106
 hi Special	            ctermfg=221
 hi Underlined	          cterm=underline     ctermfg=5
 hi Ignore	              cterm=NONE          ctermfg=7       ctermfg=darkgrey
