@@ -9,7 +9,8 @@ The vim color configurate by Marslo, including 256 and 16
 ![Linux Termianl](https://github.com/Marslo/VimConfig/blob/master/Screenshots/Screenhost_Linux_Terminal.png?raw=true)
 - Linux (Gvim  [CSS])
 ![Linux Gvim](https://github.com/Marslo/VimConfig/blob/master/Screenshots/Screenhost_Linux_Gvim.png?raw=true)
-
+- PuTTy (vimrc)
+![PuTTy](https://github.com/Marslo/VimConfig/blob/master/Screenshots/screenshot_PuTTy.png?raw=true)
 
 ## Context
 - [Usage](https://github.com/Marslo/marslo.vim#usage)
