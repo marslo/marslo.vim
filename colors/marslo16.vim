@@ -14,12 +14,12 @@
 
 set background=dark
 if version > 580
-    " no guarantees for version 5.8 and below, but this makes it stop
-    " complaining
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
+  " no guarantees for version 5.8 and below, but this makes it stop
+  " complaining
+  hi clear
+  if exists("syntax_on")
+    syntax reset
+  endif
 endif
 let g:colors_name="marslo16"
 
@@ -101,7 +101,8 @@ hi htmlValue            guifg=#D7D7AF
 hi htmlTitle            guifg=#D7D700         gui=NONE
 hi htmlTagName          guifg=#5F87FF
 hi htmlString           guifg=#87d75f
-
+" For css3 -webkit- -moz-
+hi VendorPrefix         guifg=#FF4500         gui=NONE
 " For syntax-python
 hi Boolean              guifg=#EE3E3E
 " hi Boolean              guifg=#4155EE
@@ -123,6 +124,9 @@ hi Operator             guifg=#FF8C00
 " hi link StorageClass    Statement
 " hi link Operator        Statement
 " hi link Statement       Statement
+
+" For vim-ruby
+hi rubyIdentifier       guifg=#FF5F5F
 
 " ===========================================================
 " color terminal definitions

@@ -9,25 +9,25 @@
 "          Email: marslo.jiao@gmail.com
 "        Created: 2012-05-29
 "        Version: 0.1.9
-"     LastChange: 2013-12-30 19:51:11
+"     LastChange: 2014-03-31 10:57:02
 " =============================================================================
 
 
 set background=dark
 " set background=dark
 if 256 != &t_Co && ! has("gui_running")
-    echomsg ""
-    echomsg "Error: Please use GUI or an 256-color terminal (:set t_Co=256 && export TERM='xterm-256color')"
-    echomsg ""
+  echomsg ""
+  echomsg "Error: Please use GUI or an 256-color terminal (:set t_Co=256 && export TERM='xterm-256color')"
+  echomsg ""
 endif
 
 if version > 580
-    " no guarantees for version 5.8 and below, but this makes it stop
-    " complaining
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
+  " no guarantees for version 5.8 and below, but this makes it stop
+  " complaining
+  hi clear
+  if exists("syntax_on")
+    syntax reset
+  endif
 endif
 
 let g:colors_name="marslo256"
