@@ -52,6 +52,8 @@ hi SpecialKey	          guifg=yellowgreen
 " Status line for each split windows
 hi StatusLine	          guibg=gray15        guifg=black         gui=none
 hi StatusLineNC	        guibg=gray18        guifg=grey50        gui=none
+hi User1                guibg=gray15        guifg=#9876AA
+hi User2                guibg=gray15        guifg=#A5C25C
 " hi Title	            guifg=indianred
 hi Title	              guifg=gray28
 hi Visual	              guifg=khaki         guibg=olivedrab     gui=none
@@ -235,5 +237,7 @@ hi Conditional          ctermfg=190
 hi Operator             ctermfg=208
 
 hi rubyIdentifier       ctermfg=9
+hi User1                ctermfg=135         ctermbg=black
+hi User2                ctermfg=193         ctermbg=black
 
-"vim: sw=4
+"vim: sw=2
