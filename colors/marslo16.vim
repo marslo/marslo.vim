@@ -119,7 +119,7 @@ hi Operator             guifg=#FF8C00
 hi DiffAdd	            gui=NONE            guibg=#836FFF         guifg=NONE
 hi DiffDelete	          gui=NONE            guibg=#2b2b2b         guifg=#836FFF
 hi DiffChange	          gui=bold            guibg=#2b2b2b         guifg=NONE
-hi DiffText	            gui=bold,underline  guibg=#FF0000
+hi DiffText	            gui=bold,underline  guibg=#9B30FF
 " hi link Function        Entity
 " hi link Structure       Support
 " hi link Special         Support
