@@ -190,8 +190,7 @@ hi DiffDelete	          cterm=NONE          ctermbg=239
 hi DiffAdded            ctermbg=93
 hi DiffRemoved          ctermbg=129
 hi DiffChange	          cterm=bold          ctermbg=NONE        ctermfg=255
-hi DiffText	            cterm=NONE          ctermbg=99
-" hi DiffText	            cterm=NONE          ctermbg=196
+hi DiffText	            cterm=underline     ctermbg=NONE        term=bold
 " The color setting for complete opt
 hi Pmenu                ctermfg=208         ctermbg=NONE
 hi PmenuSel             ctermfg=154
