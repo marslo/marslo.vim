@@ -175,8 +175,8 @@ hi Search	              cterm=NONE          ctermfg=grey        ctermbg=blue
 hi MoreMsg	            ctermfg=darkgreen
 hi ModeMsg	            cterm=NONE          ctermfg=brown
 hi Question	            ctermfg=green
-hi StatusLine	          cterm=NONE          ctermfg=darkgray    ctermbg=black
-hi StatusLineNC         cterm=NONE
+hi StatusLine	          cterm=NONE          ctermfg=238         ctermbg=black
+hi StatusLineNC         cterm=NONE          ctermfg=235         ctermbg=black
 hi VertSplit	          cterm=NONE
 hi Title	              ctermfg=5
 hi Visual	              cterm=underline     ctermbg=NONE
@@ -189,8 +189,9 @@ hi DiffAdd	            cterm=NONE          ctermbg=56          ctermfg=255
 hi DiffDelete	          cterm=NONE          ctermbg=239
 hi DiffAdded            ctermbg=93
 hi DiffRemoved          ctermbg=129
-hi DiffChange	          cterm=bold          ctermbg=99          ctermfg=255
-hi DiffText	            cterm=NONE          ctermbg=196
+hi DiffChange	          cterm=bold          ctermbg=NONE        ctermfg=255
+hi DiffText	            cterm=NONE          ctermbg=99
+" hi DiffText	            cterm=NONE          ctermbg=196
 " The color setting for complete opt
 hi Pmenu                ctermfg=208         ctermbg=NONE
 hi PmenuSel             ctermfg=154
